@@ -1,0 +1,32 @@
+aid: airportsapi
+name: airportsapi
+description: "Get name and website-URL for airports by ICAO code"
+url: https://airport-web.appspot.com/api/docs/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Transportation"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Transportation
+  - Public APIs
+apis:
+  - name: airportsapi
+    description: "Get name and website-URL for airports by ICAO code"
+    humanURL: https://airport-web.appspot.com/api/docs/
+    baseURL: https://airport-web.appspot.com/api/docs/
+    tags:
+      - Transportation
+    properties:
+      - type: Documentation
+        url: https://airport-web.appspot.com/api/docs/
+common:
+  - type: Website
+    url: https://airport-web.appspot.com/api/docs/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
