@@ -39,7 +39,6 @@ apis:
   - name: airportsapi
     description: "Get name and website-URL for airports by ICAO code"
     humanURL: https://airport-web.appspot.com/api/docs/
-    baseURL: https://airport-web.appspot.com/api/docs/
     tags:
       - Transportation
     properties:
